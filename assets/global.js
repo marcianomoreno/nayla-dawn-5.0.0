@@ -852,6 +852,13 @@ class VariantSelects extends HTMLElement {
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
   }
+  
+  updateSku(html) {
+    const id = `sku-${this.dataset-section}`
+    const destination = document.getElementById(id);
+    const source = html.getElementById(id);
+    if (source && destination) destination.innerHTML = source.innerHTML;
+  }
 
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForm = document.getElementById(`product-form-${this.dataset.section}`);
