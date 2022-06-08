@@ -845,6 +845,10 @@ class VariantSelects extends HTMLElement {
         const price = document.getElementById(`price-${this.dataset.section}`);
 
         if (price) price.classList.remove('visibility-hidden');
+      
+      	const sku = document.getElementById(`sku-${this.dataset.section}`);
+      	if (sku) sku.classList.remove(visibility-hidden), this.updateSku(html);
+      
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
   }
