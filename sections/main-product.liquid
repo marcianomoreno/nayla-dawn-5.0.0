@@ -213,6 +213,12 @@
                 </h2>
               </a>
             </div>
+          {%- when 'variant_sku'-%}
+        	<div id="sku-{{ section.id }}" {{ block.shopify_attributes }} style="margin-top: -15px;">
+              {% if produc.selected_or_first_available_variant.sku != blank %}
+              <p id="product-sku">SKU: {{ product.selected_or_first_available_variant.sku }}</p>
+              {% endif %}
+        	</div>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
