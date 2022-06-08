@@ -854,7 +854,7 @@ class VariantSelects extends HTMLElement {
   }
   
   updateSku(html) {
-    const id = `sku-${this.dataset-section}`
+    const id = `sku-${this.dataset.section}`
     const destination = document.getElementById(id);
     const source = html.getElementById(id);
     if (source && destination) destination.innerHTML = source.innerHTML;
