@@ -883,7 +883,9 @@ class VariantSelects extends HTMLElement {
     const addButton = button.querySelector('[name="add"]');
     const addButtonText = button.querySelector('[name="add"] > span');
     const price = document.getElementById(`price-${this.dataset.section}`);
+    const sku = document.getElementById(`sku-${this.dataset.section}`);
     if (!addButton) return;
+    if (sku) sku.classList.add('visibility-hidden');
     addButtonText.textContent = window.variantStrings.unavailable;
     if (price) price.classList.add('visibility-hidden');
   }
