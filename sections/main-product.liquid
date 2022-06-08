@@ -217,8 +217,6 @@
         	<div id="sku-{{ section.id }}" {{ block.shopify_attributes }} style="margin-top: -15px;">
               {% if product.selected_or_first_available_variant.sku != blank %}
               <p id="product-sku">SKU: {{ product.selected_or_first_available_variant.sku }}</p>
-              {% else %}
-              <p>No SKU</p>
               {% endif %}
         	</div>
           {%- when 'price' -%}
