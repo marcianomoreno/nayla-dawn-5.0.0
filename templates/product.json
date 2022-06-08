@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "f6545001-9edc-4a93-af22-ed38ed1e2314": {
+          "type": "variant_sku",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -99,6 +104,7 @@
       "block_order": [
         "vendor",
         "title",
+        "f6545001-9edc-4a93-af22-ed38ed1e2314",
         "caption",
         "price",
         "variant_picker",
