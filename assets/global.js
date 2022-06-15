@@ -848,6 +848,9 @@ class VariantSelects extends HTMLElement {
       
       	const sku = document.getElementById(`sku-${this.dataset.section}`);
       	if (sku) sku.classList.remove('visibility-hidden'), this.updateSku(html);
+
+        const on_order = document.getElementById(`variant_on_order-${this.dataset.section}`);
+        if (on_order) on_order.classList.remove('visibility-hidden'), this.updateOnOrder(html);
       
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
@@ -855,6 +858,13 @@ class VariantSelects extends HTMLElement {
   
   updateSku(html) {
     const id = `sku-${this.dataset.section}`
+    const destination = document.getElementById(id);
+    const source = html.getElementById(id);
+    if (source && destination) destination.innerHTML = source.innerHTML;
+  }
+
+  updateOnOrder(html) {
+    const id = `variant_on_order-${this.dataset.section}`;
     const destination = document.getElementById(id);
     const source = html.getElementById(id);
     if (source && destination) destination.innerHTML = source.innerHTML;
@@ -884,8 +894,10 @@ class VariantSelects extends HTMLElement {
     const addButtonText = button.querySelector('[name="add"] > span');
     const price = document.getElementById(`price-${this.dataset.section}`);
     const sku = document.getElementById(`sku-${this.dataset.section}`);
+    const on_order = document.getElementById(`variant_on_order-${this.dataset.section}`);
     if (!addButton) return;
     if (sku) sku.classList.add('visibility-hidden');
+    if (on_order) on_order.classList.add('visibility-hidden');
     addButtonText.textContent = window.variantStrings.unavailable;
     if (price) price.classList.add('visibility-hidden');
   }

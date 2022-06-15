@@ -217,6 +217,8 @@
         	<div id="sku-{{ section.id }}" {{ block.shopify_attributes }} style="margin-top: -15px;">
               {% if product.selected_or_first_available_variant.sku != blank %}
               <p id="product-sku">SKU: {{ product.selected_or_first_available_variant.sku }}</p>
+              {% else %}
+              <p id="product-sku">SKU: No disponible</p>
               {% endif %}
         	</div>
           {%- when 'price' -%}
@@ -240,6 +242,15 @@
                 {{ form | payment_terms }}
               {%- endform -%}
             </div>
+          {%- when 'offer_on_order' -%}
+            {% if product.metafields.my_fields.on_order != blank or product.selected_or_first_available_variant.metafields.my_fields.on_order != blank %}
+            <div id="variant_on_order-{{ section.id }}" {{ block.shopify_attributes }} style="background:#fff6cd; padding: 1em;">
+              <strong>Disponible sobre pedido</strong>
+              <div>Este artículo se encuentra disponible sobre pedido y requiere tiempo adicional de entrega por parte del fabricante. <a href="/pages/contacto">Contáctanos</a> para mayor información.</div>
+            </div>
+            {% else %}
+              <div id="variant_on_order-{{ section.id }}" {{ block.shopify_attributes }} style="background:#fff6cd; padding: 1em;"></div>
+            {% endif %}
           {%- when 'description' -%}
             {%- if product.description != blank -%}
               <div class="product__description rte quick-add-hidden">
@@ -998,6 +1009,16 @@
   	"type": "variant_sku",
   	"name": "Variant SKU",
   	"limit": 1
+  },
+  {
+    "type": "variant_on_order",
+    "name": "Variant on order",
+    "limit": 1
+  },
+  {
+    "type": "offer_on_order",
+    "name": "Offer on order",
+    "limit": 1
   }
   ],
   "settings": [
