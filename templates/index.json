@@ -126,12 +126,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Productos destacados",
+        "title": "Summer Sale 2022",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage",
+        "collection": "summer-sale-2022",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
