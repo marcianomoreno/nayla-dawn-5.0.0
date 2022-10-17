@@ -2,6 +2,22 @@
   "sections": {
     "b9050214-e21d-44dd-a318-3183ddbff60f": {
       "type": "image-banner",
+      "blocks": {
+        "41dfed35-574f-4990-a8cb-3b717b0d1f81": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Registro",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "41dfed35-574f-4990-a8cb-3b717b0d1f81"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BANNER-1.jpg",
         "image_overlay_opacity": 0,
