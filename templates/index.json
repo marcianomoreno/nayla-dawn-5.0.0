@@ -1,5 +1,37 @@
 {
   "sections": {
+    "b9050214-e21d-44dd-a318-3183ddbff60f": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15541563195546__b9050214-e21d-44dd-a318-3183ddbff60f-1666026017ec424380-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Registro",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15541563195546__b9050214-e21d-44dd-a318-3183ddbff60f-1666026017ec424380-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BANNER-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -263,41 +295,10 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "b9050214-e21d-44dd-a318-3183ddbff60f": {
-      "type": "image-banner",
-      "blocks": {
-        "template--15541563195546__b9050214-e21d-44dd-a318-3183ddbff60f-1666026017ec424380-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Registro",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15541563195546__b9050214-e21d-44dd-a318-3183ddbff60f-1666026017ec424380-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER-1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
     }
   },
   "order": [
+    "b9050214-e21d-44dd-a318-3183ddbff60f",
     "featured_collection",
     "1653782203e4649deb",
     "165378220511764d0b",
@@ -305,7 +306,6 @@
     "collage",
     "video",
     "1653783034f5738118",
-    "1653783237a3f92de6",
-    "b9050214-e21d-44dd-a318-3183ddbff60f"
+    "1653783237a3f92de6"
   ]
 }
