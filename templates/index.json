@@ -35,12 +35,12 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Destacados",
+        "title": "Expo Gonher 2022",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "frontpage",
+        "collection": "expo-gonher-2022",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
