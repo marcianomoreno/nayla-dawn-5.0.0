@@ -1,46 +1,14 @@
 {
   "sections": {
-    "b9050214-e21d-44dd-a318-3183ddbff60f": {
-      "type": "image-banner",
-      "blocks": {
-        "41dfed35-574f-4990-a8cb-3b717b0d1f81": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Registro",
-            "button_link_1": "shopify:\/\/pages\/nosotros",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "41dfed35-574f-4990-a8cb-3b717b0d1f81"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER-2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Expo Gonher 2022",
+        "title": "Destacados",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "expo-gonher-2022",
+        "collection": "frontpage",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -298,7 +266,6 @@
     }
   },
   "order": [
-    "b9050214-e21d-44dd-a318-3183ddbff60f",
     "featured_collection",
     "1653782203e4649deb",
     "165378220511764d0b",
