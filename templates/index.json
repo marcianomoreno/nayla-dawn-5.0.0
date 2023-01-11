@@ -1,5 +1,56 @@
 {
   "sections": {
+    "444d399f-8a05-4e5e-a587-16d550f6a212": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0",
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1",
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -266,6 +317,7 @@
     }
   },
   "order": [
+    "444d399f-8a05-4e5e-a587-16d550f6a212",
     "featured_collection",
     "1653782203e4649deb",
     "165378220511764d0b",
