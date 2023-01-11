@@ -2,6 +2,7 @@
   "sections": {
     "444d399f-8a05-4e5e-a587-16d550f6a212": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0": {
           "type": "heading",
