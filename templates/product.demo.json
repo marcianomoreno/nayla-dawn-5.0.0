@@ -170,6 +170,44 @@
         "padding_bottom": 36
       }
     },
+    "a6cd1953-082b-45fe-87b0-8358a7860166": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Producto demo",
+            "heading_size": "h1"
+          }
+        },
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En NAYLA un producto demo significa:<\/p><ul><li>Estuvo en exhibición en nuestro showroom.<\/li><li>Fue utilizado en presentaciones con clientes.<\/li><\/ul><p>Los productos demo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. Contáctamos si tienes preguntas<\/p>"
+          }
+        },
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-0",
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-1",
+        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "disabled": true,
@@ -230,51 +268,13 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "a6cd1953-082b-45fe-87b0-8358a7860166": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Producto demo",
-            "heading_size": "h1"
-          }
-        },
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>En NAYLA un producto demo significa:<\/p><ul><li>Estuvo en exhibición en nuestro showroom.<\/li><li>Fue utilizado en presentaciones con clientes.<\/li><\/ul><p>Los productos demo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. Contáctamos si tienes preguntas<\/p>"
-          }
-        },
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-0",
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-1",
-        "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "image-with-text",
+    "a6cd1953-082b-45fe-87b0-8358a7860166",
     "multicolumn",
-    "product-recommendations",
-    "a6cd1953-082b-45fe-87b0-8358a7860166"
+    "product-recommendations"
   ]
 }
