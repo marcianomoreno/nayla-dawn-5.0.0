@@ -104,6 +104,12 @@
           "settings": {
             "share_label": "Compartir"
           }
+        },
+        "046469ee-a477-431a-9c91-40ecfa888499": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if true %}\nTRUE\n{% endif %}"
+          }
         }
       },
       "block_order": [
@@ -121,7 +127,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "046469ee-a477-431a-9c91-40ecfa888499"
       ],
       "settings": {
         "enable_sticky_info": true,
