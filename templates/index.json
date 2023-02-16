@@ -60,7 +60,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "recien-llegados",
+        "collection": "destacados",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
