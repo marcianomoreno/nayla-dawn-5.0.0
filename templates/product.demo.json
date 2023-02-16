@@ -59,6 +59,12 @@
           "settings": {
           }
         },
+        "046469ee-a477-431a-9c91-40ecfa888499": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains 'demo' %}\nDEMO\n{% endif %}"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -104,12 +110,6 @@
           "settings": {
             "share_label": "Compartir"
           }
-        },
-        "046469ee-a477-431a-9c91-40ecfa888499": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if true %}\nTRUE\n{% endif %}"
-          }
         }
       },
       "block_order": [
@@ -123,12 +123,12 @@
         "5dbbc8fc-e011-497c-82a3-3c3e953692a7",
         "buy_buttons",
         "description",
+        "046469ee-a477-431a-9c91-40ecfa888499",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "046469ee-a477-431a-9c91-40ecfa888499"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -190,7 +190,7 @@
         "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-1": {
           "type": "text",
           "settings": {
-            "text": "<p>En NAYLA un producto demo significa:<\/p><ul><li>Estuvo en exhibición en nuestro showroom.<\/li><li>Fue utilizado en presentaciones con clientes.<\/li><\/ul><p>Los productos demo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. Contáctamos si tienes preguntas<\/p>"
+            "text": ""
           }
         },
         "template--16034217689242__a6cd1953-082b-45fe-87b0-8358a7860166-1676520793dc39e05b-2": {
