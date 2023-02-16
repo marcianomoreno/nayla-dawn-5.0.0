@@ -62,7 +62,7 @@
         "046469ee-a477-431a-9c91-40ecfa888499": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains 'demo' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"Demo\"<\/h2>\nEn NAYLA un producto \"Demo\" significa:\n<ul>\n<li>Estuvo en exhibición y fue demostrado en nuestro showroom.<\/li>\n<li>Fue utilizado en presentaciones con clientes.<\/li>\n<\/ul>\nLos productos demo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'demo' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"Demo\"<\/h2>\nEn NAYLA un producto \"Demo\" significa:\n<ul>\n<li>Estuvo en exhibición y fue demostrado en nuestro showroom.<\/li>\n<li>Fue utilizado en la producción de contenidos promocionales.<\/li>\n<li>Fue utilizado en presentaciones con clientes.<\/li>\n<\/ul>\nLos productos demo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
           }
         },
         "collapsible-row-0": {
