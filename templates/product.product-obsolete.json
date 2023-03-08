@@ -54,6 +54,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "d92e0146-1370-40ba-b431-f015d9510b7b": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% if product.tags contains 'product-obsolete' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto Descontinuado<\/h2>\n<p>Este producto ya no se encuentra disponible en venta. Hemos mantenido la página como referencia histórica. <a href=\"\/pages\/contacto\">Contáctanos<\/a> en caso de dudas.<p\/>\n<\/div>\n{% endif %}"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -104,12 +110,6 @@
           "settings": {
             "share_label": "Compartir"
           }
-        },
-        "d92e0146-1370-40ba-b431-f015d9510b7b": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "{% if product.tags contains 'product-obsolete' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto Descontinuado<\/h2>\n<p>Este producto ya no se encuentra disponible en venta. Hemos mantenido la página como referencia histórica. <a href=\"\/pages\/contacto\">Contáctanos<\/a> en caso de dudas.<p\/>\n<\/div>\n{% endif %}"
-          }
         }
       },
       "block_order": [
@@ -122,13 +122,13 @@
         "quantity_selector",
         "5dbbc8fc-e011-497c-82a3-3c3e953692a7",
         "buy_buttons",
+        "d92e0146-1370-40ba-b431-f015d9510b7b",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "d92e0146-1370-40ba-b431-f015d9510b7b"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
