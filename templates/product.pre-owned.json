@@ -108,7 +108,7 @@
         "5d2242b1-3848-413d-b42b-7e32c0af1ac4": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains 'pre-owned' %}\n<div style=\"background-color:aliceblue; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"Dueño Previo\"<\/h2>\nEn NAYLA un producto \"Duseño Previo\" significa:\n<ul>\n<li>Recibido por NAYLA de uno de nuestros clientes (intercambio, consignación, entre otros).<\/li>\n<li>Adquirido por NAYLA a terceros.<\/li>\n<\/ul>\nLos productos Dueño Previo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'pre-owned' %}\n<div style=\"background-color:aliceblue; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"Dueño Previo\"<\/h2>\nEn NAYLA un producto \"Dueño Previo\" significa:\n<ul>\n<li>Recibido por NAYLA de uno de nuestros clientes (intercambio, consignación, entre otros).<\/li>\n<li>Adquirido por NAYLA a terceros.<\/li>\n<\/ul>\nLos productos Dueño Previo que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
           }
         }
       },
