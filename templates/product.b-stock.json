@@ -62,7 +62,7 @@
         "03e75843-727f-4057-91f2-f93ee3657639": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains 'b-stock' %}\n<div style=\"background-color:lightblue; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"B-Stock\"<\/h2>\nEn NAYLA un producto \"B-Stock\" significa:\n<ul>\n<li>Producto recibido como parte de una devolución de un cliente de NAYLA.<\/li>\n<li>Producto reacondicionado adquirido a un fabricante o distribuidor.<\/li>\n\n<\/ul>\nLos productos b-stock que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'b-stock' %}\n<div style=\"background-color:lightcyan; padding-left: 5px; padding-right:5px;\">\n<h2>Producto \"B-Stock\"<\/h2>\nEn NAYLA un producto \"B-Stock\" significa:\n<ul>\n<li>Producto recibido como parte de una devolución de uno de nuestros clientes.<\/li>\n<li>Producto reacondicionado adquirido por nosotros a un fabricante o distribuidor.<\/li>\n\n<\/ul>\nLos productos b-stock que ofrecemos son completamente funcionales. Son inspeccionados y su condición a detalle se encuentra como notas en la información de producto. <a href=\"\/pages\/contacto\">Contáctanos<\/a> si tienes preguntas.\n<\/div>\n{% endif %}"
           }
         },
         "collapsible-row-0": {
