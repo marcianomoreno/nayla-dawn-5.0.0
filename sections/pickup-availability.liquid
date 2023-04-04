@@ -14,10 +14,10 @@
     <div class="pickup-availability-info">
       {%- if closest_location.available -%}
         <p class="caption-large">{{ 'products.product.pickup_availability.pick_up_available_at_html' | t: location_name: closest_location.location.name }}</p>
-      {% if product.metafields.my_fields.on_order == blank or product.metafields.my_fields.on_order == false %}
-        <p class="caption">{{ closest_location.pick_up_time }}</p>
-      {% else %}
+      {% if product.metafields.my_fields.on_order == true %}
         <p>Consulta el tiempo de entrega.</p>
+      {% else %}
+        <p class="caption">{{ closest_location.pick_up_time }}</p>
       {% endif %}
       <button id="ShowPickupAvailabilityDrawer" class="pickup-availability-button link link--text underlined-link" aria-haspopup="dialog">
           {%- if pick_up_availabilities.size == 1 -%}
