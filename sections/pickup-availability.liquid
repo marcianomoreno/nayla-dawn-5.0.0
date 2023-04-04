@@ -15,7 +15,7 @@
       {%- if closest_location.available -%}
         <p class="caption-large">{{ 'products.product.pickup_availability.pick_up_available_at_html' | t: location_name: closest_location.location.name }}</p>
       {% if product.metafields.my_fields.on_order == blank or product.metafields.my_fields.on_order == false %}
-        <p class="caption">{{ closest_location.pick_up_time }}</p>
+        <p class="caption">{{ closest_location.pick_up_time }}</p>Time
       {% else %}
         <p>Consulta el tiempo de entrega.</p>
       {% endif %}
