@@ -165,6 +165,78 @@
         "padding_bottom": 36
       }
     },
+    "41473fad-0f2f-4285-8e47-482d3da2dd87": {
+      "type": "featured-product",
+      "blocks": {
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-0",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-1",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-2",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-3",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-4",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-5",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-6",
+        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7"
+      ],
+      "settings": {
+        "product": "microfono-de-estudio-rode-nt1-5a-generacion",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165378220511764d0b": {
       "type": "featured-blog",
       "settings": {
@@ -316,52 +388,52 @@
         "include_margins": true
       }
     },
-    "41473fad-0f2f-4285-8e47-482d3da2dd87": {
+    "a57b2746-f060-4f2b-963c-40ac132fc331": {
       "type": "featured-product",
       "blocks": {
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-0": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-0": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-1": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-1": {
           "type": "title",
           "settings": {
             "heading_size": "h1"
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-2": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-2": {
           "type": "text",
           "settings": {
             "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-3": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-3": {
           "type": "price",
           "settings": {
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-4": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-4": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button"
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-5": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-5": {
           "type": "quantity_selector",
           "settings": {
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-6": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-6": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
           }
         },
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7": {
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-7": {
           "type": "share",
           "settings": {
             "share_label": "Share"
@@ -369,17 +441,17 @@
         }
       },
       "block_order": [
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-0",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-1",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-2",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-3",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-4",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-5",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-6",
-        "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7"
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-0",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-1",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-2",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-3",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-4",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-5",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-6",
+        "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-7"
       ],
       "settings": {
-        "product": "microfono-de-estudio-rode-nt1-5a-generacion",
+        "product": "triangulo-black-swamp-percussion-artisan",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -394,11 +466,12 @@
     "444d399f-8a05-4e5e-a587-16d550f6a212",
     "featured_collection",
     "1653782203e4649deb",
+    "41473fad-0f2f-4285-8e47-482d3da2dd87",
     "165378220511764d0b",
     "rich_text",
     "collage",
     "1653783034f5738118",
     "1653783237a3f92de6",
-    "41473fad-0f2f-4285-8e47-482d3da2dd87"
+    "a57b2746-f060-4f2b-963c-40ac132fc331"
   ]
 }
