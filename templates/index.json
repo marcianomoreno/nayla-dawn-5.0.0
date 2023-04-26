@@ -3,11 +3,11 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "RØDE: Introduciendo Wireless ME",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/wime_module_1_970x600_915d549c-ef2f-4a96-9c34-521509b4e8bd.png",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=YZzDwRx2U48",
-        "description": "Wireless ME RØDE",
+        "heading": "RØDE: Introduciendo RØDE Connect, el software de podcasting y streaming para NT-USB Mini",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/rode-nt-usb-mini-psa-1-intermediate-insitu-2-february-2022-1080x1080-rgb.jpg",
+        "video_url": "https:\/\/youtu.be\/pbtICjfGaFc",
+        "description": "Introducción a RØDE Connect",
         "full_width": true,
         "color_scheme": "accent-2",
         "padding_top": 36,
