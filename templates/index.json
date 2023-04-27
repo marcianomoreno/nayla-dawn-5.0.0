@@ -3,86 +3,15 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "RØDE: Introduciendo RØDE Connect, el software de podcasting y streaming para NT-USB Mini",
+        "heading": "RØDE: Introduciendo RØDE NT1 5a generación",
         "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/rode-nt-usb-mini-psa-1-intermediate-insitu-2-february-2022-1080x1080-rgb.jpg",
-        "video_url": "https:\/\/youtu.be\/pbtICjfGaFc",
+        "cover_image": "shopify:\/\/shop_images\/rode-nt1-5g-silver-insitu-beauty-shot-dotted-bg-macro-mesh-12-2022-8192x5464-rgb_0.33x.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=RQMZ5UTgosQ",
         "description": "Introducción a RØDE Connect",
         "full_width": true,
         "color_scheme": "accent-2",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1653783237a3f92de6": {
-      "type": "apps",
-      "blocks": {
-        "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "3b526dd8-1f47-473b-b675-aa9cc7dcfa60"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "444d399f-8a05-4e5e-a587-16d550f6a212": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0",
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1",
-        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -459,12 +388,81 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1653783237a3f92de6": {
+      "type": "apps",
+      "blocks": {
+        "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b526dd8-1f47-473b-b675-aa9cc7dcfa60"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "444d399f-8a05-4e5e-a587-16d550f6a212": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0",
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1",
+        "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "video",
-    "1653783237a3f92de6",
-    "444d399f-8a05-4e5e-a587-16d550f6a212",
     "featured_collection",
     "1653782203e4649deb",
     "41473fad-0f2f-4285-8e47-482d3da2dd87",
@@ -472,6 +470,8 @@
     "rich_text",
     "collage",
     "1653783034f5738118",
-    "165378220511764d0b"
+    "165378220511764d0b",
+    "1653783237a3f92de6",
+    "444d399f-8a05-4e5e-a587-16d550f6a212"
   ]
 }
