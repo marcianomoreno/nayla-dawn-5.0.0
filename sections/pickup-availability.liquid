@@ -15,7 +15,6 @@
       {%- if closest_location.available -%}
         <p class="caption-large">{{ 'products.product.pickup_availability.pick_up_available_at_html' | t: location_name: closest_location.location.name }}</p>
         <p class="caption">{{ closest_location.pick_up_time }}</p>
-      <p>{{ pick_up_availabilities.size }} </p>
 
       <button id="ShowPickupAvailabilityDrawer" class="pickup-availability-button link link--text underlined-link" aria-haspopup="dialog">
           {%- if pick_up_availabilities.size == 1 -%}
@@ -76,8 +75,6 @@
     </ul>
   </pickup-availability-drawer>
 {%- else -%}
-    <div class="pickup-availability-info">
-      <p class="caption-large">Disponible para venta en línea.</p>
-    </div>
+    <p>{{ pick_up_availabilities.size }} </p>
     
 {%- endif -%}
