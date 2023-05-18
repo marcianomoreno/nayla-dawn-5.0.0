@@ -43,6 +43,12 @@
           "settings": {
           }
         },
+        "4a7ed817-45ed-49f8-80af-33d50f8aa77c": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign pick_up_availabilities = product_variant.store_availabilities | where: 'pick_up_enabled', true -%}\n\n  {%- if pick_up_availabilities.size == 0 and product_variant.product.metafields.my_fields.on_order != true and product_variant.metafields.my_fields.on_order != true -%}\n<p>Disponible para venta en línea.<\/p>\n  {%- endif-%}"
+          }
+        },
         "5dbbc8fc-e011-497c-82a3-3c3e953692a7": {
           "type": "offer_on_order",
           "settings": {
@@ -114,6 +120,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "4a7ed817-45ed-49f8-80af-33d50f8aa77c",
         "5dbbc8fc-e011-497c-82a3-3c3e953692a7",
         "buy_buttons",
         "description",
