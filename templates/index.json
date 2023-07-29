@@ -3,11 +3,11 @@
     "video": {
       "type": "video",
       "settings": {
-        "heading": "RØDE: Características y especificaciones del brazo de estudio PSA1+",
+        "heading": "RØDE Connect: Podcasting y Streaming para NT-USB Mini",
         "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/rode-nth100-lifestyle-insitu-four-people-podcasting-january-2022-8192x5464-rgb-2000x2000-103a87f_fa9aa404-cde4-490e-9af1-7af73a908e6a.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=GgB5Azl4Y_E",
-        "description": "Características y especificaciones de RODE PSA1+",
+        "cover_image": "shopify:\/\/shop_images\/images_page_77_modules_3682_RODE_RODE_CONNECT_INSITU_4_NT-USB_MINI_MACBOOK-DARKMODE-1.1-UPDATE-1000x1000-rgb.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=pbtICjfGaFc",
+        "description": "RODE Connect: Solución para podcasting y streaming para NT-USB Mini",
         "full_width": true,
         "color_scheme": "accent-2",
         "padding_top": 36,
@@ -176,7 +176,7 @@
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7"
       ],
       "settings": {
-        "product": "brazo-de-estudio-profesional-rode-psa1",
+        "product": "microfono-usb-calidad-de-estudio-rode-nt-usb-mini",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
