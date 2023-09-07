@@ -248,7 +248,7 @@
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-7"
       ],
       "settings": {
-        "product": "entorchado-para-tarola-de-concierto-puresound-concert",
+        "product": "baqueta-de-marimba-marimba-one-double-helix-abedul-mediana-dhb3",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -325,7 +325,7 @@
       "type": "apps",
       "blocks": {
         "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "heading_size": 20,
             "feed_width": 100,
@@ -342,7 +342,6 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -369,6 +368,7 @@
         "product",
         "collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -381,7 +381,6 @@
     },
     "rich_text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -401,6 +400,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -410,7 +410,6 @@
     },
     "444d399f-8a05-4e5e-a587-16d550f6a212": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-0": {
           "type": "heading",
@@ -446,6 +445,7 @@
         "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-1",
         "template--15541563195546__444d399f-8a05-4e5e-a587-16d550f6a212-1673405381c8f6ff28-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
         "image_overlay_opacity": 0,
