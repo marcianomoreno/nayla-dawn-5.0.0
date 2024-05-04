@@ -248,7 +248,7 @@
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-7"
       ],
       "settings": {
-        "product": "baqueta-de-marimba-marimba-one-double-helix-abedul-mediana-dhb3",
+        "product": "baqueta-de-marimba-marimba-one-double-helix-abedul-mediana-dhb3-un-par",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -327,8 +327,6 @@
         "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
             "html_area": ""
           }
         }
