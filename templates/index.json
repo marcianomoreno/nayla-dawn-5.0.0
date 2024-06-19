@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "video": {
@@ -176,7 +185,7 @@
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-7"
       ],
       "settings": {
-        "product": "sistema-de-microfonos-inalambrico-digital-compacto-rode-wireless-me",
+        "product": "sistema-inalambrico-digital-de-canal-doble-rode-wireless-go-ii",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -327,6 +336,9 @@
         "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
