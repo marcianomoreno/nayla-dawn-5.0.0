@@ -243,7 +243,7 @@
               {%- endform -%}
             </div>
           {%- when 'offer_on_order' -%}
-            {% if product.metafields.my_fields.on_order != blank or product.selected_or_first_available_variant.metafields.my_fields.on_order != blank %}
+            {% if product.selected_or_first_available_variant.metafields.my_fields.on_order %}
             <div id="variant_on_order-{{ section.id }}" {{ block.shopify_attributes }} style="background:#fff6cd; padding: 1em;">
               <strong>Disponible sobre pedido</strong>
               <div>Este artículo se encuentra disponible sobre pedido y requiere tiempo adicional de entrega por parte del fabricante. <a href="/pages/contacto">Contáctanos</a> para mayor información.</div>
