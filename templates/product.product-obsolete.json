@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -57,7 +66,7 @@
         "d92e0146-1370-40ba-b431-f015d9510b7b": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "{% if product.tags contains 'product-obsolete' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto Descontinuado<\/h2>\n<p>Este producto ya no se encuentra disponible en venta. Hemos mantenido la página como referencia histórica. <a href=\"\/pages\/contacto\">Contáctanos<\/a> en caso de dudas.<p\/>\n<\/div>\n{% endif %}"
+            "custom_liquid": "{% if product.tags contains 'product-obsolete' %}\n<div style=\"background-color:lightgrey; padding-left: 5px; padding-right:5px;\">\n<h2>Producto descontinuado<\/h2>\n<p>Este producto ya no se encuentra disponible en venta. Hemos mantenido la página como referencia histórica. <a href=\"\/pages\/contacto\">Contáctanos<\/a> en caso de dudas.<p\/>\n<\/div>\n{% endif %}"
           }
         },
         "description": {
@@ -143,7 +152,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -164,6 +172,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "height": "small",
         "desktop_image_width": "medium",
@@ -179,7 +188,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -204,6 +212,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
