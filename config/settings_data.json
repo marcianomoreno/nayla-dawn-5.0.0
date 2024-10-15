@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -83,21 +92,21 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "accent_icons": "text",
-    "social_twitter_link": "https:\/\/twitter.com\/NaylaVentures",
-    "social_facebook_link": "https:\/\/facebook.com\/nayla.ventures",
+    "social_twitter_link": "https://twitter.com/NaylaVentures",
+    "social_facebook_link": "https://facebook.com/nayla.ventures",
     "social_pinterest_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/nayla.ventures",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@nayla.ventures",
+    "social_instagram_link": "https://instagram.com/nayla.ventures",
+    "social_tiktok_link": "https://www.tiktok.com/@nayla.ventures",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
-    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCVGK4QydnO4I1N7IZQ32ypA\/",
+    "social_youtube_link": "https://www.youtube.com/channel/UCVGK4QydnO4I1N7IZQ32ypA/",
     "social_vimeo_link": "",
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": true,
     "predictive_search_show_price": true,
-    "favicon": "shopify:\/\/shop_images\/NAYLA-RITMO.png",
+    "favicon": "shopify://shop_images/NAYLA-RITMO.png",
     "currency_code_enabled": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/NAYLA_FONDO_TRANSP_sin_slogan_1d841572-a56d-49d5-aea2-fdd61d2d9183.png",
+    "checkout_logo_image": "shopify://shop_images/NAYLA_FONDO_TRANSP_sin_slogan_1d841572-a56d-49d5-aea2-fdd61d2d9183.png",
     "checkout_heading_font": "Roboto",
     "checkout_body_font": "Roboto",
     "checkout_accent_color": "#797a7a",
@@ -110,9 +119,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Bienvenido a NAYLA",
+              "text": "Showroom con horario ajustado la semana del 14/oct",
               "color_scheme": "inverse",
-              "link": ""
+              "link": "shopify://blogs/news/semana-del-14-oct-204-fechas-y-horarios-de-atencion-en-nuestro-showroom"
             }
           }
         },
@@ -126,7 +135,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "inverse",
-          "logo": "shopify:\/\/shop_images\/NAYLA_color_200px_37cf9d68-4f3a-43d8-93b0-ac7619355b65.png",
+          "logo": "shopify://shop_images/NAYLA_color_200px_37cf9d68-4f3a-43d8-93b0-ac7619355b65.png",
           "logo_width": 130,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -150,14 +159,14 @@
             "type": "text",
             "settings": {
               "heading": "Contáctanos",
-              "subtext": "<p><a href=\"\/pages\/citas-virtuales\" target=\"_blank\" title=\"Citas Virtuales\">Agenda una cita virtual<\/a><\/p><p>WhatsApp <a href=\"https:\/\/wa.me\/15122702190\" target=\"_blank\" title=\"https:\/\/wa.me\/15122702190\">+1 (512) 2702190<\/a><\/p><p>FB msg <a href=\"https:\/\/m.me\/nayla.ventures\" target=\"_blank\" title=\"https:\/\/m.me\/nayla.ventures\">m.me\/nayla.ventures<\/a><\/p><p>Tel\/fax <a href=\"tel:+525559196447\" target=\"_blank\" title=\"tel:+525559196447\">+52 (55) 59196447<\/a><\/p><p><a href=\"\/pages\/contacto\" title=\"Contacto\">Formulario de contacto<\/a><\/p><p>E-mail <a href=\"mailto:hola@nayla.ventures\" target=\"_blank\" title=\"mailto:hola@nayla.ventures\">hola@nayla.ventures<\/a><\/p>"
+              "subtext": "<p><a href=\"/pages/citas-virtuales\" target=\"_blank\" title=\"Citas Virtuales\">Agenda una cita virtual</a></p><p>WhatsApp <a href=\"https://wa.me/15122702190\" target=\"_blank\" title=\"https://wa.me/15122702190\">+1 (512) 2702190</a></p><p>FB msg <a href=\"https://m.me/nayla.ventures\" target=\"_blank\" title=\"https://m.me/nayla.ventures\">m.me/nayla.ventures</a></p><p>Tel/fax <a href=\"tel:+525559196447\" target=\"_blank\" title=\"tel:+525559196447\">+52 (55) 59196447</a></p><p><a href=\"/pages/contacto\" title=\"Contacto\">Formulario de contacto</a></p><p>E-mail <a href=\"mailto:hola@nayla.ventures\" target=\"_blank\" title=\"mailto:hola@nayla.ventures\">hola@nayla.ventures</a></p>"
             }
           },
           "footer-2": {
             "type": "text",
             "settings": {
               "heading": "Misión",
-              "subtext": "<p>Que toda persona adopte sus medios de expresión músical o vocal para su propia trascendencia.<\/p>"
+              "subtext": "<p>Que toda persona adopte sus medios de expresión músical o vocal para su propia trascendencia.</p>"
             }
           }
         },
@@ -347,7 +356,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
