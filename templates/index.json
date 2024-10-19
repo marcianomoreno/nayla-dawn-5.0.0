@@ -1,26 +1,28 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
-    "video": {
-      "type": "video",
+    "image_banner_EPnFaT": {
+      "type": "image-banner",
       "settings": {
-        "heading": "Características y especificaciones de RØDE Lavalier II",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/Lav-II_Social_Feature_1080x1080_8c58faa6-ad36-4862-84dd-3717623ba3fb.jpg",
-        "video_url": "https:\/\/youtu.be\/DGLjPMPIIKE?si=MSDHo4VU91aHwA2Z",
-        "description": "RODE Lavalier II es un micrófono lavalier premium con un diseño revolucionario de perfil bajo.",
-        "full_width": true,
-        "color_scheme": "accent-2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image": "shopify://shop_images/Expo-Banner_Web.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -334,11 +336,12 @@
       "type": "apps",
       "blocks": {
         "3b526dd8-1f47-473b-b675-aa9cc7dcfa60": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }
@@ -402,7 +405,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -457,7 +460,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
+        "image": "shopify://shop_images/Los_Cabos_Shirt_and_Sticks_RPA5678.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "adapt_height_first_image": false,
@@ -472,7 +475,7 @@
     }
   },
   "order": [
-    "video",
+    "image_banner_EPnFaT",
     "featured_collection",
     "1653782203e4649deb",
     "41473fad-0f2f-4285-8e47-482d3da2dd87",
