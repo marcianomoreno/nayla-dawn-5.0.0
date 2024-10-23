@@ -9,22 +9,6 @@
  */
 {
   "sections": {
-    "image_banner_EPnFaT": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify://shop_images/Expo-Banner_Web.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -475,7 +459,6 @@
     }
   },
   "order": [
-    "image_banner_EPnFaT",
     "featured_collection",
     "1653782203e4649deb",
     "41473fad-0f2f-4285-8e47-482d3da2dd87",
