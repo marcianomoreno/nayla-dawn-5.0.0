@@ -63,6 +63,13 @@
             "show_dynamic_checkout": true
           }
         },
+        "mercado_pago_banner_tooltips_credits_8FhxTq": {
+          "type": "shopify://apps/mercado-pago-banner/blocks/tooltips_credits/3f05369b-cc5d-42f7-86b9-0bdc7b2d0f95",
+          "settings": {
+            "background": "transparent",
+            "content": "option1"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -113,13 +120,6 @@
           "settings": {
             "share_label": "Compartir"
           }
-        },
-        "mercado_pago_banner_tooltips_credits_8FhxTq": {
-          "type": "shopify://apps/mercado-pago-banner/blocks/tooltips_credits/3f05369b-cc5d-42f7-86b9-0bdc7b2d0f95",
-          "settings": {
-            "background": "transparent",
-            "content": "option1"
-          }
         }
       },
       "block_order": [
@@ -132,13 +132,13 @@
         "quantity_selector",
         "5dbbc8fc-e011-497c-82a3-3c3e953692a7",
         "buy_buttons",
+        "mercado_pago_banner_tooltips_credits_8FhxTq",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "mercado_pago_banner_tooltips_credits_8FhxTq"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
