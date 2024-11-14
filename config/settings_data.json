@@ -119,17 +119,16 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Nuevo horario de nuestro showroom: 9:30 a 13:30 y 14:30 a 20:00 lunes a viernes. Fin de semana previa cita.",
+              "text": "Nos encontramos en PASIC 2024.Reabriremos nuestro showroom el 19/nov",
               "color_scheme": "inverse",
-              "link": "shopify://pages/nosotros"
+              "link": "shopify://blogs/news/estaremos-presentes-en-el-congreso-pasic-2024-del-14-al-16-de-noviembre"
             }
           }
         },
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
@@ -202,9 +201,7 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "presets": {
     "Default": {
@@ -320,8 +317,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
