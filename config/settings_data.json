@@ -121,7 +121,7 @@
             "settings": {
               "text": "Showroom abierto en nuestro horario habitual.",
               "color_scheme": "inverse",
-              "link": "https://nayla.ventures"
+              "link": "shopify://pages/showroom"
             }
           }
         },
