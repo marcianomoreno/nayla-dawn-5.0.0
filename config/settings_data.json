@@ -119,9 +119,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Nos encontramos en PASIC 2024.Reabriremos nuestro showroom el 19/nov",
+              "text": "Showroom abierto en nuestro horario habitual.",
               "color_scheme": "inverse",
-              "link": "shopify://blogs/news/estaremos-presentes-en-el-congreso-pasic-2024-del-14-al-16-de-noviembre"
+              "link": "https://nayla.ventures"
             }
           }
         },
