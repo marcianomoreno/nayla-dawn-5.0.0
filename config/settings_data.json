@@ -119,7 +119,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Showroom abierto en nuestro horario habitual.",
+              "text": "19/nov: Showroom abierto en nuestro horario habitual.",
               "color_scheme": "inverse",
               "link": "shopify://pages/showroom"
             }
