@@ -118,6 +118,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "19/nov: Showroom abierto en nuestro horario habitual.",
               "color_scheme": "inverse",
