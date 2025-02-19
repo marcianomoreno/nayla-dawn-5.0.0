@@ -61,8 +61,7 @@
         },
         "1653782203359ec917-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "1653782203359ec917-4": {
           "type": "variant_picker",
@@ -72,8 +71,7 @@
         },
         "1653782203359ec917-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "1653782203359ec917-6": {
           "type": "buy_buttons",
@@ -133,8 +131,7 @@
         },
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-4": {
           "type": "variant_picker",
@@ -144,8 +141,7 @@
         },
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15541563195546__41473fad-0f2f-4285-8e47-482d3da2dd87-168193534249849903-6": {
           "type": "buy_buttons",
@@ -205,8 +201,7 @@
         },
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-4": {
           "type": "variant_picker",
@@ -216,8 +211,7 @@
         },
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-5": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15541563195546__a57b2746-f060-4f2b-963c-40ac132fc331-168193534249849903-6": {
           "type": "buy_buttons",
@@ -326,6 +320,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
@@ -456,9 +451,54 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "image_with_text_3wbnVK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BFDF3z": {
+          "type": "heading",
+          "settings": {
+            "heading": "#SOYPERCU",
+            "heading_size": "h2"
+          }
+        },
+        "text_DMBNq3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Aprovecha las ofertas que tenemos en artículos seleccionados de percusiones hasta el 28 de febrero.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Ww97JK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Conocer más",
+            "button_link": "shopify://collections/soypercu"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BFDF3z",
+        "text_DMBNq3",
+        "button_Ww97JK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/NAYLA-soypercu-feb-2025_09ed47b8-eabd-4284-9764-4be04b0ab3a6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "image_with_text_3wbnVK",
     "featured_collection",
     "1653782203e4649deb",
     "41473fad-0f2f-4285-8e47-482d3da2dd87",
