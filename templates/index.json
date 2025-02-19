@@ -53,6 +53,50 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_wYTzYt": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jxqQ8t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talleres interactivos batería Capítulo México PAS",
+            "heading_size": "h2"
+          }
+        },
+        "text_FrCJgt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Inscríbete a los talleres interactivos de batería sobre polirritmia y musicalidad, y esencia de la música afrocubana impartidos por Erik Carrillo y Daniel Ponce organizados por Capítulo México Percussive Arts Society. </p><p>Aprovecha las ofertas que tendremos en nuestro módulo.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_JNp6EQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inscripciones",
+            "button_link": "https://pas-talleres-interactivos-bateria-9-mar.boletia.com/"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jxqQ8t",
+        "text_FrCJgt",
+        "button_JNp6EQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Talleres_interactivos_bateria-9-mar-1-square.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -546,50 +590,6 @@
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_with_text_wYTzYt": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jxqQ8t": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talleres interactivos batería",
-            "heading_size": "h2"
-          }
-        },
-        "text_FrCJgt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Inscríbete a los talleres interactivos de batería sobre polirritmia y musicalidad, y esencia de la música afrocubana impartidos por Erik Carrillo y Daniel Ponce organizados por Capítulo México Percussive Arts Society. </p>",
-            "text_style": "body"
-          }
-        },
-        "button_JNp6EQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Inscripciones",
-            "button_link": "https://pas-talleres-interactivos-bateria-9-mar.boletia.com/"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jxqQ8t",
-        "text_FrCJgt",
-        "button_JNp6EQ"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Talleres_interactivos_bateria-9-mar-1-square.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
