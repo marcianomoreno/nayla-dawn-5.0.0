@@ -118,7 +118,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Nos encontramos en receso vacacional. Los pedidos en línea se surtirán a partir del 24 de noviembre. Nuestro showroom físico estará cerrado hasta entonces.",
               "color_scheme": "inverse",
