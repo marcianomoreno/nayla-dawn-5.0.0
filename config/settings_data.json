@@ -119,7 +119,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Nos encontramos en receso vacacional. Los pedidos en línea se surtirán a partir del 24 de noviembre. Nuestro showroom físico estará cerrado hasta entonces.",
+              "text": "Showroom abierto y sitio web operando en nuestros horarios usuales.",
               "color_scheme": "inverse",
               "link": "shopify://pages/contacto"
             }
