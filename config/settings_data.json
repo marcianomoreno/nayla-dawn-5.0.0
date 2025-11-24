@@ -119,7 +119,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Showroom abierto y sitio web operando en nuestros horarios usuales.",
+              "text": "Showroom abierto en nuestro horario usual y sitio web operando.",
               "color_scheme": "inverse",
               "link": "shopify://pages/contacto"
             }
