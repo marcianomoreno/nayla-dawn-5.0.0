@@ -118,6 +118,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Felices fiestas. Surtido de pedidos en línea y reapertura de nuestro showroom el lunes 5 de enero de 2026.",
               "color_scheme": "inverse",
